@@ -4,10 +4,16 @@ class Checkout extends Component {
   constructor(props) {
       super(props);
       this.state = {
+        view: 'opening',
+        workouts: ''
           
       };
       
   };
+
+  componentDidMount() {
+    
+  }
 
 
   render() {
