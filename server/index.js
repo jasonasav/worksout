@@ -10,7 +10,6 @@ app.use(express.static(path.join(__dirname + '/../client/dist')));
 
 app.get('/workouts', workouts.getAll)
 app.post('/workouts', workouts.add)
-app.patch('/workouts', workouts.edit)
 
 let port = process.env.PORT || 3000;
 app.listen(port, ()=> console.log(`Listening on port: ${port}`));
