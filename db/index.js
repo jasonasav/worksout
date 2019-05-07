@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb://localhost:27017/worksout';
+const mongoURI = 'mongodb://localhost:27017/mvp';
 
 const db = mongoose.connect(mongoURI, { useNewUrlParser: true });
 
@@ -12,3 +12,10 @@ db
   });
 
 module.exports = db;
+
+// const mongoose = require('mongoose');
+// const mongoUri = 'mongodb://localhost:27017/worksout';
+
+// const db = mongoose.connect(mongoUri);
+
+// module.exports = db;

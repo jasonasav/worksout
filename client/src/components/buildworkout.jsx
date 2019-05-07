@@ -10,6 +10,8 @@ class Buildworkout extends React.Component {
         name: '', type: '', sets:'', reps:'', weight:'', duration:''
       
       }
+
+  
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
     }
